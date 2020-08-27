@@ -55,4 +55,18 @@ def: ^volt
 is: ^marker
 doc: "Electrical voltage, potential difference"
 --------------------------------------------------------------------------
+def:^axis
+enum:"X,Y,Z"
+is:^str
+tagOn:[^position, ^velocity, ^acceleration]
+doc:
+  The axis of measurement, according to the reference frame.
+--------------------------------------------------------------------------
+def: ^object-freq
+doc:
+  Object vibration frequency or positional cycle frequency.
+is: ^quantity
+quantityOf: ^object
+prefUnit: ["Hz"]
+--------------------------------------------------------------------------
 

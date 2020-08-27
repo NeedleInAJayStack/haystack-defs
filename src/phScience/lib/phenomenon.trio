@@ -36,4 +36,10 @@ is: ^phenomenon
 wikipedia: `https://en.wikipedia.org/wiki/Weather`
 doc: "Associated with atmospheric air or phenomenon"
 --------------------------------------------------------------------------
+def:^object
+is:^phenomenon
+wikipedia:`https://en.wikipedia.org/wiki/Physical_object`
+doc:
+  A collection of matter with a defined contiguous boundary in three-dimentional space.
+--------------------------------------------------------------------------
 

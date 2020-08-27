@@ -297,6 +297,32 @@ doc:
 --------------------------------------------------------------------------
 
 //////////////////////////////////////////////////////////////////////////
+// Objects
+//////////////////////////////////////////////////////////////////////////
+
+def:^position
+is:^quantity
+quantityOf:^object
+wikipedia:`https://en.wikipedia.org/wiki/Position_(geometry)`
+doc:
+  The position of an object in space in relation to an arbitrary reference point
+--------------------------------------------------------------------------
+def:^velocity
+is:^quantity
+quantityOf:^object
+wikipedia:`https://en.wikipedia.org/wiki/Velocity`
+doc:
+  The rate of change of the position of an object with respect to time
+--------------------------------------------------------------------------
+def:^acceleration
+is:^quantity
+quantityOf:^object
+wikipedia:`https://en.wikipedia.org/wiki/Acceleration`
+doc:
+  The rate of change of the velocity of an object with respect to time
+--------------------------------------------------------------------------
+
+//////////////////////////////////////////////////////////////////////////
 // Generics
 //////////////////////////////////////////////////////////////////////////
 
